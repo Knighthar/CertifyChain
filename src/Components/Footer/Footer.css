@@ -1,0 +1,23 @@
+.footer {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    position: relative; /* Add relative positioning to the footer */
+}
+
+.footer::before {
+    content: "";
+    position: absolute; /* Absolute positioning */
+    top: 0; /* Align at the top of the footer */
+    left: 0;
+    width: 100%; /* Cover the full width of the footer */
+    height: 1px; /* Set the height of the line */
+    background-color: #797979; /* Color of the line */
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
